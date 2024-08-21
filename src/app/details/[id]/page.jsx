@@ -1,6 +1,7 @@
 "use client";
 
 import CommentSection from "@/app/components/CommentSection";
+import Link from "next/link";
 import { useParams } from "next/navigation";
 import Slider from "react-slick";
 
@@ -10,7 +11,7 @@ export default function DayDetails() {
   const { id } = params;
 
   const images = [
-    "https://via.placeholder.com/800x400?text=Image+1", 
+     "/images/ne-diyon-bayan.jpg",
     "https://i.pinimg.com/564x/bd/f4/a8/bdf4a83abda625effddaf564b34e420e.jpg",
     "https://i.pinimg.com/564x/bd/f4/a8/bdf4a83abda625effddaf564b34e420e.jpg"
   ]
